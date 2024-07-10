@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-import 'package:bertqa/qa.dart';
-import 'package:bertqa/ui/qa_detail.dart';
+
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';

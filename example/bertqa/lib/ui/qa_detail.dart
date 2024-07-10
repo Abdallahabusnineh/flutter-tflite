@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import 'package:bertqa/ml/qa_answer.dart';
-import 'package:bertqa/ml/qa_client.dart';
 import 'package:flutter/material.dart';
 
 class QaDetail extends StatefulWidget {
@@ -72,7 +70,8 @@ class _QaDetailState extends State<QaDetail> {
     _highlightAnswer(answers.first);
   }
 
-  void _highlightAnswer(QaAnswer answer) {
+  void _highlightAnswer(QaAnswe
+  r answer) {
     setState(() {
       _qaAnswer = answer;
       _answerIndex = widget.content.indexOf(_qaAnswer!.text);
